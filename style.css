@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdfaf6;
+    color: #2d2d2d;
+}
+
+header {
+    background-color: #d6b2e8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    color: #2d2d2d;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Georgia', serif;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+}
+
+main p {
+    font-size: 18px;
+    color: #4b4b4b;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.product-placeholder {
+    border: 2px dashed #d8bfa7;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #fffaf2;
+    font-family: 'Sacramento', cursive;
+    font-size: 18px;
+    color: #7a6e57;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #f2e7da;
+    color: #5a5a5a;
+}
