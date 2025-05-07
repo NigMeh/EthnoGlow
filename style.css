@@ -355,3 +355,41 @@ footer {
   font-weight: bold;
   color: #5a3a75;
 }
+
+.privacy-page {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+}
+
+.privacy-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.privacy-hero h1 {
+  font-family: 'Playfair Display', serif;
+  color: #6e3b8b;
+  font-size: 36px;
+}
+
+.privacy-hero p {
+  font-size: 18px;
+  color: #7c4d8f;
+}
+
+.privacy-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.privacy-section h2 {
+  color: #5a3a75;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.privacy-section p {
+  color: #3f2a50;
+  font-size: 16px;
+  line-height: 1.6;
+}
