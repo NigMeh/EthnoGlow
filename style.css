@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fdf7f4;
+  color: #4c3b36;
+}
+
+header {
+  background-color: #e8dff5;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #5f4b8b;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5f4b8b;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.page-title {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 20px 40px;
+}
+
+.product-card {
+  background-color: #f5ecff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.product-card p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #d4b5ff;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.product-card button:hover {
+  background-color: #bb98ff;
+}
+
+footer {
+  background-color: #f1e3ff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+
+.contact-section {
+  padding: 20px 40px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #d4b5ff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.contact-form button:hover {
+  background-color: #bb98ff;
+}
