@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f5f5dc; /* Beige */
+  color: #2e2e2e;
+}
+
+header {
+  background-color: #e6e6fa; /* Lavender */
+  padding: 2em;
+  text-align: center;
+}
+
+.brand-name {
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  margin: 0;
+  color: #2e2e2e;
+}
+
+.tagline {
+  font-size: 1.25em;
+  margin-top: 0.5em;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 2em auto;
+}
+
+.product-placeholder {
+  border: 2px dashed #d2bfa3;
+  padding: 2em;
+  font-style: italic;
+  color: #7a6e58;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fdfaf6;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  color: #999;
+}
