@@ -393,3 +393,41 @@ footer {
   font-size: 16px;
   line-height: 1.6;
 }
+
+.terms-page {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+}
+
+.terms-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.terms-hero h1 {
+  font-family: 'Playfair Display', serif;
+  color: #6e3b8b;
+  font-size: 36px;
+}
+
+.terms-hero p {
+  font-size: 18px;
+  color: #7c4d8f;
+}
+
+.terms-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.terms-section h2 {
+  color: #5a3a75;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.terms-section p {
+  color: #3f2a50;
+  font-size: 16px;
+  line-height: 1.6;
+}
