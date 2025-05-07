@@ -172,3 +172,60 @@ footer {
   margin-bottom: 15px;
   color: #6e3b8b;
 }
+
+.contact-page {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+}
+
+.contact-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-intro h1 {
+  font-family: 'Playfair Display', serif;
+  color: #6e3b8b;
+  font-size: 36px;
+}
+
+.contact-intro p {
+  font-size: 18px;
+  color: #7c4d8f;
+}
+
+.contact-form-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #5a3a75;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d5c7e5;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.contact-form button {
+  background-color: #b390d4;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #a47bc0;
+}
