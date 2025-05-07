@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EthnoGlow</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">EthnoGlow</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="page-title">Our Kurtis</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Kurti+1" alt="Kurti 1"/>
+        <h3>Lavender Elegance</h3>
+        <p>₹350</p>
+        <button onclick="addToCart('Lavender Elegance', 350)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Kurti+2" alt="Kurti 2"/>
+        <h3>Pastel Bloom</h3>
+        <p>₹370</p>
+        <button onclick="addToCart('Pastel Bloom', 370)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Kurti+3" alt="Kurti 3"/>
+        <h3>Beige Grace</h3>
+        <p>₹400</p>
+        <button onclick="addToCart('Beige Grace', 400)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Kurti+4" alt="Kurti 4"/>
+        <h3>Rosy Dream</h3>
+        <p>₹360</p>
+        <button onclick="addToCart('Rosy Dream', 360)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 EthnoGlow. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function addToCart(name, price) {
+      let cart = JSON.parse(localStorage.getItem('ethnoglow-cart')) || [];
+      cart.push({ name: name, price: price });
+      localStorage.setItem('ethnoglow-cart', JSON.stringify(cart));
+      alert(name + " added to cart!");
+    }
+  </script>
+</body>
+</html>
