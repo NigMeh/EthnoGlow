@@ -140,3 +140,35 @@ footer {
   text-decoration: none;
   font-weight: 600;
 }
+
+.about-hero {
+  background-color: #f5e6ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #6e3b8b;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  color: #8052a3;
+  font-size: 18px;
+}
+
+.about-section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #5a3a75;
+}
+
+.about-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #6e3b8b;
+}
