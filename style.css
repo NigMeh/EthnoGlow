@@ -311,3 +311,47 @@ footer {
   padding-left: 20px;
   list-style-type: disc;
 }
+
+.testimonials-page {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+}
+
+.testimonials-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonials-hero h1 {
+  font-family: 'Playfair Display', serif;
+  color: #6e3b8b;
+  font-size: 36px;
+}
+
+.testimonials-hero p {
+  font-size: 18px;
+  color: #7c4d8f;
+}
+
+.testimonial-box {
+  max-width: 700px;
+  margin: 20px auto;
+  background: #fbeffb;
+  padding: 20px;
+  border-left: 4px solid #b485b6;
+  border-radius: 8px;
+}
+
+.testimonial-box blockquote {
+  font-style: italic;
+  color: #3f2a50;
+  margin: 0;
+}
+
+.testimonial-box cite {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #5a3a75;
+}
