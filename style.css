@@ -88,3 +88,55 @@ footer {
   font-size: 14px;
   margin-top: 40px;
 }
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #fff9f4;
+}
+
+.login-box {
+  background-color: #fef6ff;
+  border: 1px solid #e6c5ff;
+  border-radius: 10px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.login-box h2 {
+  font-family: 'Playfair Display', serif;
+  color: #6e3b8b;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 6px;
+  color: #744d91;
+  font-weight: 600;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.create-account {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.create-account a {
+  color: #8052a3;
+  text-decoration: none;
+  font-weight: 600;
+}
