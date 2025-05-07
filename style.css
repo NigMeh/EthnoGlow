@@ -229,3 +229,85 @@ footer {
 .contact-form button:hover {
   background-color: #a47bc0;
 }
+
+.faq-page {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+}
+
+.faq-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-hero h1 {
+  font-family: 'Playfair Display', serif;
+  color: #6e3b8b;
+  font-size: 36px;
+}
+
+.faq-hero p {
+  font-size: 18px;
+  color: #7c4d8f;
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.faq-section h2 {
+  color: #5a3a75;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.faq-section p {
+  color: #3f2a50;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.shipping-page {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+}
+
+.shipping-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.shipping-hero h1 {
+  font-family: 'Playfair Display', serif;
+  color: #6e3b8b;
+  font-size: 36px;
+}
+
+.shipping-hero p {
+  font-size: 18px;
+  color: #7c4d8f;
+}
+
+.shipping-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.shipping-section h2 {
+  color: #5a3a75;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.shipping-section p,
+.shipping-section ul {
+  color: #3f2a50;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.shipping-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
