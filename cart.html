@@ -1,53 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cart - EthnoGlow</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="logo">EthnoGlow</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="cart.html">Cart</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1 class="page-title">Your Cart</h1>
-    <div class="cart-container">
-      <ul id="cart-items"></ul>
-      <p id="total-price"><strong>Total: ₹0</strong></p>
-    </div>
-  </main>
-  <footer>
-    <p>&copy; 2025 EthnoGlow. All rights reserved.</p>
-  </footer>
-
-  <script>
-    function loadCart() {
-      let cart = JSON.parse(localStorage.getItem('ethnoglow-cart')) || [];
-      const cartList = document.getElementById('cart-items');
-      const totalPrice = document.getElementById('total-price');
-      cartList.innerHTML = '';
-      let total = 0;
-
-      cart.forEach(item => {
-        const li = document.createElement('li');
-        li.innerHTML = `<span>${item.name}</span> - ₹${item.price}`;
-        cartList.appendChild(li);
-        total += item.price;
-      });
-
-      totalPrice.innerHTML = "<strong>Total: ₹" + total + "</strong>";
-    }
-
-    window.onload = loadCart;
-  </script>
+  <h1>Cart Page</h1>
+  <p>Content coming soon...</p>
 </body>
 </html>
