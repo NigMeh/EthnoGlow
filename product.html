@@ -3,30 +3,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EthnoGlow - Products</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Our Latest Collection</h1>
-    <div class="product-container">
+    <header>
+        <h1>EthnoGlow</h1>
+    </header>
+    <main class="product-grid">
         <div class="product-card">
-            <img src="images/kurti1.jpg" alt="Lavender Floral Kurti">
-            <h2>Floral Lavender Kurti</h2>
+            <img src="kurti1.jpg" alt="Floral Kurti">
+            <h3>Floral Lavender Kurti</h3>
             <p>₹399</p>
-            <button>Buy Now</button>
+            <button onclick="addToCart('Floral Lavender Kurti', 399)">Add to Cart</button>
+            <a href="details.html">View Details</a>
         </div>
         <div class="product-card">
-            <img src="images/kurti2.jpg" alt="Chikankari Lavender Kurti">
-            <h2>Chikankari Short Kurti</h2>
-            <p>₹449</p>
-            <button>Buy Now</button>
+            <img src="kurti2.jpg" alt="Beige Kurti">
+            <h3>Elegant Beige Kurti</h3>
+            <p>₹429</p>
+            <button onclick="addToCart('Elegant Beige Kurti', 429)">Add to Cart</button>
+            <a href="details.html">View Details</a>
         </div>
-        <div class="product-card">
-            <img src="images/kurti3.jpg" alt="Elegant Kurti">
-            <h2>Elegant Lavender Kurti</h2>
-            <p>₹350</p>
-            <button>Buy Now</button>
-        </div>
-    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
 </body>
 </html>
