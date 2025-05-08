@@ -2,42 +2,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EthnoGlow</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #fdf6f0;
+        }
+        header {
+            background-color: #e9e3e1;
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5b4036;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">Ethno</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
+        <div><strong>Ethno</strong></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">About</a>
+            <a href="#">FAQ</a>
         </nav>
     </header>
-
-    <section id="home" class="hero-section">
-        <img src="assets/hero.png" alt="EthnoGlow Banner" class="hero-image" />
-        <a href="#product" class="shop-now-btn">Shop Now</a>
-    </section>
-
-    <section id="product">
-        <h2>Our Products</h2>
-        <p>Product section coming soon...</p>
-    </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>About section coming soon...</p>
-    </section>
-
-    <section id="faq">
-        <h2>FAQ</h2>
-        <p>FAQ section coming soon...</p>
+    <section class="hero">
+        <img src="assets/hero.png" alt="EthnoGlow Hero">
     </section>
 </body>
 </html>
