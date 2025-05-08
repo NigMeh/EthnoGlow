@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefaf6;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 1152px;
+    margin: auto;
+}
+
+.banner-img {
+    width: 100%;
+    display: block;
+}
+
+.shop-button {
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+    padding: 12px 28px;
+    background-color: #7b5c4b;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+    background-color: #5f4536;
+}
