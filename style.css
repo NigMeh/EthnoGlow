@@ -1,98 +1,64 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif;
-}
-
 body {
-  background: #fff8f0;
-  color: #4a3b2f;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6ee;
+  color: #5a4233;
 }
 
-header {
-  background: #e8dfd9;
-  padding: 1rem 2rem;
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #e9dfd2;
+  padding: 15px 30px;
+  font-size: 1.2rem;
 }
 
-.logo {
+.navbar .logo {
   font-weight: bold;
-  font-size: 1.5rem;
-  color: #5c4438;
+  background-color: #9c7b6e;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-nav a {
+.navbar nav a {
+  margin-left: 20px;
   text-decoration: none;
-  color: #5c4438;
-  font-weight: 500;
+  color: #5a4233;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
-  background: #fff8f0;
+  padding: 40px 20px;
   text-align: center;
 }
 
 .hero-text h1 {
   font-family: 'Sacramento', cursive;
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 3em;
+  margin: 0;
 }
 
 .hero-text p {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.2em;
+  margin: 10px 0 20px;
 }
 
-.btn {
-  background: #a1785e;
+.shop-button {
+  background-color: #9c7b6e;
   color: white;
-  padding: 0.8rem 1.5rem;
+  padding: 12px 24px;
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
+  border-radius: 8px;
+  font-size: 1em;
 }
 
 .hero-image img {
-  max-width: 100%;
+  margin-top: 30px;
+  max-width: 90%;
   height: auto;
-  margin-top: 1rem;
-}
-
-footer {
-  background: #e8dfd9;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  margin-top: 2rem;
-}
-
-@media (min-width: 768px) {
-  .hero {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-  }
-
-  .hero-text {
-    flex: 1;
-    padding-right: 2rem;
-  }
-
-  .hero-image {
-    flex: 1;
-  }
 }
