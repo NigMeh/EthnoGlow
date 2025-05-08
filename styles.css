@@ -2,35 +2,64 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fefaf6;
 }
 
-.banner-container {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4e9dc;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6c4b3f;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6c4b3f;
+    font-size: 1.1rem;
+}
+
+.hero-section {
     position: relative;
-    width: 100%;
-    max-width: 1152px;
-    margin: auto;
+    text-align: center;
 }
 
-.banner-img {
+.hero-image {
     width: 100%;
+    max-width: 100%;
     display: block;
 }
 
-.shop-button {
+.shop-now-btn {
     position: absolute;
-    bottom: 80px;
-    left: 100px;
-    padding: 12px 28px;
-    background-color: #7b5c4b;
-    color: white;
+    left: 8%;
+    top: 70%;
+    background-color: #6c4b3f;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.2rem;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
 }
 
-.shop-button:hover {
-    background-color: #5f4536;
+section {
+    padding: 4rem 2rem;
+}
+
+    font-size: 1.2rem;
+    border-radius: 5px;
 }
