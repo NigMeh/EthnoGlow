@@ -1,29 +1,29 @@
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fef6f9;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f8f6;
 }
+
 header {
-  background-color: #e6d5f7;
-  padding: 1rem;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
-nav a {
-  margin: 0 10px;
-  color: #333;
-  text-decoration: none;
+
+.banner {
+    width: 100%;
+    height: auto;
 }
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background-color: #fdf3f5;
-}
-.shop-now-btn {
-  padding: 10px 20px;
-  background-color: #c8a2c8;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+
+.shop-now {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d6cadd;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
 }
