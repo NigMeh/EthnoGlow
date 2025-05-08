@@ -1,64 +1,70 @@
-
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fdf6ee;
-  color: #5a4233;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf5;
+    color: #5e4437;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #e9dfd2;
-  padding: 15px 30px;
-  font-size: 1.2rem;
+header {
+    background-color: #f5eee6;
+    padding: 1em;
 }
 
-.navbar .logo {
-  font-weight: bold;
-  background-color: #9c7b6e;
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 8px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #5a4233;
+nav .logo {
+    font-weight: bold;
+    background-color: #a77c63;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5e4437;
+    font-size: 1em;
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 20px;
-  text-align: center;
+    background-image: url('images/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.hero-text h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 3em;
-  margin: 0;
+.brand {
+    font-family: 'Georgia', cursive;
+    font-size: 3em;
+    margin: 0.2em 0;
 }
 
-.hero-text p {
-  font-size: 1.2em;
-  margin: 10px 0 20px;
+.tagline {
+    font-size: 1.2em;
+    margin-bottom: 1em;
 }
 
 .shop-button {
-  background-color: #9c7b6e;
-  color: white;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 1em;
-}
-
-.hero-image img {
-  margin-top: 30px;
-  max-width: 90%;
-  height: auto;
+    background-color: #a77c63;
+    color: white;
+    text-decoration: none;
+    padding: 0.75em 1.5em;
+    border-radius: 10px;
+    font-weight: bold;
 }
