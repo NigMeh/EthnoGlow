@@ -1,107 +1,53 @@
 
 body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fefefe;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f9;
     color: #333;
-}
-
-.main-header {
-    background-color: #e8d3e0;
-    color: #4e3d53;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Georgia', serif;
-}
-
-nav a {
-    color: #4e3d53;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-.hero {
     text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(120deg, #e8d3e0, #f8f2f0);
-    color: #4e3d53;
+    margin: 0;
+    padding: 0;
 }
-
-.cta-button {
-    background-color: #c3a4cc;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: inline-block;
+h1 {
+    margin: 20px;
+    color: #7b6ca4;
 }
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #e8d3e0;
-    color: #4e3d53;
-}
-
-/* Products */
-.product-list {
-    padding: 50px;
-    background-color: #f9f7f6;
-    text-align: center;
-}
-
-.product-grid {
+.product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.product-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    width: 250px;
+    gap: 20px;
     padding: 20px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-
+.product-card {
+    border: 1px solid #e0dce3;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 220px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
 .product-card img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+    border-radius: 8px;
+    background-color: #ddd;
 }
-
 .product-card h2 {
-    font-size: 20px;
-    margin: 15px 0 10px;
-    color: #5e4b56;
+    font-size: 18px;
+    color: #5d4e84;
 }
-
 .product-card p {
     font-size: 16px;
-    color: #333;
+    color: #444;
 }
-
-.product-card .btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #c3a4cc;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
+button {
+    background-color: #cbb7e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-.product-card .btn:hover {
-    background-color: #a884b3;
+button:hover {
+    background-color: #a98dca;
 }
